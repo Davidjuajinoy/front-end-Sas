@@ -193,10 +193,31 @@ background-color: #6C63FF;
   color: #fff;
 }
 
-
+.bg-breadcrumb{
+  background-color: #e9ecef;
+}
 
 .input-login{
   display: none;
+}
+
+.form_contact_textarea{
+  resize: none;
+}
+
+.box__shadow{
+  box-shadow: 0 10px 10px -5px  rgba(36, 34, 34, 0.678);
+}
+
+.contact::before,
+.sobre_nosotros::before,
+.servicios::before{
+  display: block;
+  content: " ";
+  margin-top: -40px;
+  height: 70px;
+  visibility: hidden;
+  
 }
 
 /* ! End Main */
@@ -294,10 +315,8 @@ background-color: #6C63FF;
   background-color: rgba(21, 23, 24, 0.781);
   color: rgba(255, 255, 255, 0.705);
   letter-spacing: 0px;
-  transition: box-shadow .4s, 
-              letter-spacing .4s;
-  -moz-transition: box-shadow .4s, 
-              letter-spacing .4s;
+  transition: box-shadow .4s, letter-spacing .4s;
+  -moz-transition: box-shadow .4s, letter-spacing .4s;
 }
 
 .btn-grow:hover{
